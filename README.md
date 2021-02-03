@@ -7,7 +7,6 @@ Input:
 Benchmark of 130 call options, written on Ericsson stock. Each option data, stored in file Ericsson.csv, has the following information: Maturity Date, Strike Price (K), Call Option Price, Time to Maturity (T). The initial Ericsson stock price is $S_0 = 98.36$ and dividend yield rate d= 0.0086.
 
 Output:
+Calibrated Heston parameters, including: kappa, theta, sigma, rho, initial volatility of volatility.
 
-
-A simple example to demonstrate  are in the subfolder "examples". We create those examples based on examples from Z3-str2 tool.
-
+Simple examples to demonstrate option pricing method with different model via FT-Lewis and FT-discrete (Fast Fourier Transform)  are in the "Fourier Pricing Examples.ipynb".
